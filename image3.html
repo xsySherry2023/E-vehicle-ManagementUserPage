@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="9e959c1b6aef4e43aab966198fea0823" class="chart-container" style="width:2000px; height:800px; "></div>
+    <script>
+        var chart_9e959c1b6aef4e43aab966198fea0823 = echarts.init(
+            document.getElementById('9e959c1b6aef4e43aab966198fea0823'), 'white', {renderer: 'canvas'});
+        var option_9e959c1b6aef4e43aab966198fea0823 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "sankey",
+            "name": "Proportion of vehicle status in each block",
+            "data": [
+                {
+                    "name": "rentCityLocationName: block1"
+                },
+                {
+                    "name": "rentCityLocationName: block2"
+                },
+                {
+                    "name": "rentCityLocationName: block3"
+                },
+                {
+                    "name": "returnCityLocationName: block1"
+                },
+                {
+                    "name": "returnCityLocationName: block2"
+                },
+                {
+                    "name": "returnCityLocationName: block3"
+                }
+            ],
+            "links": [
+                {
+                    "source": "rentCityLocationName: block1",
+                    "target": "returnCityLocationName: block0",
+                    "value": 46.26865671641791
+                },
+                {
+                    "source": "rentCityLocationName: block1",
+                    "target": "returnCityLocationName: block1",
+                    "value": 40.298507462686565
+                },
+                {
+                    "source": "rentCityLocationName: block1",
+                    "target": "returnCityLocationName: block2",
+                    "value": 13.432835820895523
+                },
+                {
+                    "source": "rentCityLocationName: block1",
+                    "target": "returnCityLocationName: block3",
+                    "value": 0.0
+                },
+                {
+                    "source": "rentCityLocationName: block1",
+                    "target": "returnCityLocationName: block0",
+                    "value": 44.18604651162791
+                },
+                {
+                    "source": "rentCityLocationName: block1",
+                    "target": "returnCityLocationName: block1",
+                    "value": 29.069767441860467
+                },
+                {
+                    "source": "rentCityLocationName: block1",
+                    "target": "returnCityLocationName: block2",
+                    "value": 24.418604651162788
+                },
+                {
+                    "source": "rentCityLocationName: block1",
+                    "target": "returnCityLocationName: block3",
+                    "value": 2.3255813953488373
+                },
+                {
+                    "source": "rentCityLocationName: block1",
+                    "target": "returnCityLocationName: block0",
+                    "value": 56.17977528089888
+                },
+                {
+                    "source": "rentCityLocationName: block1",
+                    "target": "returnCityLocationName: block1",
+                    "value": 31.46067415730337
+                },
+                {
+                    "source": "rentCityLocationName: block1",
+                    "target": "returnCityLocationName: block2",
+                    "value": 10.112359550561797
+                },
+                {
+                    "source": "rentCityLocationName: block1",
+                    "target": "returnCityLocationName: block3",
+                    "value": 2.247191011235955
+                },
+                {
+                    "source": "rentCityLocationName: block2",
+                    "target": "returnCityLocationName: block0",
+                    "value": 54.054054054054056,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(120, 120, 128, 0.8)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block2",
+                    "target": "returnCityLocationName: block1",
+                    "value": 32.432432432432435,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(120, 120, 128, 0.8)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block2",
+                    "target": "returnCityLocationName: block2",
+                    "value": 9.45945945945946,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(120, 120, 128, 0.8)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block2",
+                    "target": "returnCityLocationName: block3",
+                    "value": 4.054054054054054,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(120, 120, 128, 0.8)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block2",
+                    "target": "returnCityLocationName: block0",
+                    "value": 48.19277108433735,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(120, 120, 128, 0.8)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block2",
+                    "target": "returnCityLocationName: block1",
+                    "value": 30.120481927710845,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(120, 120, 128, 0.8)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block2",
+                    "target": "returnCityLocationName: block2",
+                    "value": 18.072289156626507,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(120, 120, 128, 0.8)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block2",
+                    "target": "returnCityLocationName: block3",
+                    "value": 3.614457831325301,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(120, 120, 128, 0.8)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block2",
+                    "target": "returnCityLocationName: block0",
+                    "value": 53.84615384615385,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(120, 120, 128, 0.8)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block2",
+                    "target": "returnCityLocationName: block1",
+                    "value": 28.205128205128204,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(120, 120, 128, 0.8)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block2",
+                    "target": "returnCityLocationName: block2",
+                    "value": 16.666666666666664,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(120, 120, 128, 0.8)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block2",
+                    "target": "returnCityLocationName: block3",
+                    "value": 1.282051282051282,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(120, 120, 128, 0.8)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block3",
+                    "target": "returnCityLocationName: block0",
+                    "value": 46.15384615384615,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(185, 130, 238, 0.7)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block3",
+                    "target": "returnCityLocationName: block1",
+                    "value": 35.38461538461539,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(185, 130, 238, 0.7)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block3",
+                    "target": "returnCityLocationName: block2",
+                    "value": 13.846153846153847,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(185, 130, 238, 0.7)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block3",
+                    "target": "returnCityLocationName: block3",
+                    "value": 4.615384615384616,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(185, 130, 238, 0.7)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block3",
+                    "target": "returnCityLocationName: block0",
+                    "value": 56.25,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(185, 130, 238, 0.7)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block3",
+                    "target": "returnCityLocationName: block1",
+                    "value": 31.25,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(185, 130, 238, 0.7)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block3",
+                    "target": "returnCityLocationName: block2",
+                    "value": 10.416666666666668,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(185, 130, 238, 0.7)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block3",
+                    "target": "returnCityLocationName: block3",
+                    "value": 2.083333333333333,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(185, 130, 238, 0.7)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block3",
+                    "target": "returnCityLocationName: block0",
+                    "value": 46.464646464646464,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(185, 130, 238, 0.7)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block3",
+                    "target": "returnCityLocationName: block1",
+                    "value": 27.27272727272727,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(185, 130, 238, 0.7)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block3",
+                    "target": "returnCityLocationName: block2",
+                    "value": 22.22222222222222,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(185, 130, 238, 0.7)"
+                    }
+                },
+                {
+                    "source": "rentCityLocationName: block3",
+                    "target": "returnCityLocationName: block3",
+                    "value": 4.040404040404041,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid",
+                        "color": "rgba(185, 130, 238, 0.7)"
+                    }
+                }
+            ],
+            "left": "5%",
+            "top": "10%",
+            "right": "20%",
+            "bottom": "5%",
+            "nodeWidth": 30,
+            "nodeGap": 12,
+            "nodeAlign": "justify",
+            "layoutIterations": 5,
+            "orient": "horizontal",
+            "draggable": true,
+            "label": {
+                "show": true,
+                "position": "right",
+                "margin": 8
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 0.8,
+                "curveness": 0.5,
+                "type": "solid",
+                "color": "source"
+            },
+            "itemStyle": {
+                "borderColor": "#aaa",
+                "borderWidth": 2
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Proportion of vehicle status in each block"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "Distribution of return locations (in %)",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_9e959c1b6aef4e43aab966198fea0823.setOption(option_9e959c1b6aef4e43aab966198fea0823);
+    </script>
+</body>
+</html>
